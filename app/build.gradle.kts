@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.castilhoduarte.starlinkrouter"
+    namespace = "com.castilhoduarte.jlh6"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.castilhoduarte.starlinkrouter"
+        applicationId = "com.castilhoduarte.jlh6"
         minSdk = 28
         //noinspection ExpiredTargetSdkVersion  // target 28 on purpose: legacy boot/FGS leniency
         targetSdk = 28

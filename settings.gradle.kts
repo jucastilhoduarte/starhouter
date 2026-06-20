@@ -20,5 +20,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "StarlinkRouter"
+rootProject.name = "JLH6"
 include(":app")

@@ -1,25 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Starlink Router</string>
-
-    <string name="state_on">LIGADO</string>
-    <string name="state_off">DESLIGADO</string>
-    <string name="state_starting">INICIANDO…</string>
-    <string name="state_error">ERRO</string>
-    <string name="state_no_root">SEM ROOT</string>
-
-    <string name="hint_tap_to_off">toque para desligar</string>
-    <string name="hint_tap_to_on">toque para ligar</string>
-    <string name="hint_wait">aguarde…</string>
-    <string name="hint_reinstall">reinstale pelo exploit</string>
-
-    <string name="route_starlink">Trafegando via Starlink</string>
-    <string name="route_4g">Trafegando via 4G</string>
-    <string name="route_none">—</string>
-
-    <string name="logs">Logs</string>
-    <string name="settings">Configurações</string>
-    <string name="logs_title">Logs do Starlink Router</string>
-    <string name="refresh">Atualizar</string>
-    <string name="close">Fechar</string>
+    <string name="app_name">JLH6</string>
+    <string name="open_settings">Abrir configurações do Android</string>
 </resources>
