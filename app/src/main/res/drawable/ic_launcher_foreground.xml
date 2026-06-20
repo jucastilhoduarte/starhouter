@@ -1,41 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp"
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
 
-    <!-- estrela 5 pontas centrada em 54,72 -->
     <path
         android:fillColor="#F59E0B"
         android:pathData="
-          M54,63
-          L56.9,69.8 L64.4,70.4 L59,75.2 L60.8,82.5 L54,78.6
-          L47.2,82.5 L49,75.2 L43.6,70.4 L51.1,69.8 Z"/>
-
-    <!-- arco 1 -->
-    <path
-        android:strokeColor="#FFFFFF"
-        android:strokeWidth="4.5"
-        android:strokeLineCap="round"
-        android:fillColor="@android:color/transparent"
-        android:pathData="M42,58 Q54,47 66,58"/>
-
-    <!-- arco 2 -->
-    <path
-        android:strokeColor="#FFFFFF"
-        android:strokeWidth="4.5"
-        android:strokeLineCap="round"
-        android:fillColor="@android:color/transparent"
-        android:alpha="0.7"
-        android:pathData="M33,49 Q54,30 75,49"/>
-
-    <!-- arco 3 -->
-    <path
-        android:strokeColor="#FFFFFF"
-        android:strokeWidth="4.5"
-        android:strokeLineCap="round"
-        android:fillColor="@android:color/transparent"
-        android:alpha="0.4"
-        android:pathData="M24,40 Q54,13 84,40"/>
+          M54,24
+          L60.18,42.27 L79.63,42.27 L64.72,53.73 L70.9,72 L54,60.54
+          L37.1,72 L43.28,53.73 L28.37,42.27 L47.82,42.27 Z" />
 
 </vector>
