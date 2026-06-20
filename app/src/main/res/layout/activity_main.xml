@@ -3,101 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
-    android:padding="48dp">
+    android:gravity="center">
 
-    <!-- Header: somente o logo, centralizado -->
-    <ImageView
-        android:layout_width="192dp"
-        android:layout_height="192dp"
-        android:layout_gravity="center_horizontal"
-        android:src="@drawable/ic_wifi"
-        android:contentDescription="@string/app_name" />
-
-    <!-- Big toggle button -->
-    <LinearLayout
-        android:id="@+id/big_button"
-        android:layout_width="750dp"
-        android:layout_height="190dp"
-        android:layout_marginTop="52dp"
-        android:orientation="vertical"
-        android:gravity="center"
-        android:background="@drawable/bg_button"
-        android:clickable="true"
-        android:focusable="true">
-
-        <TextView
-            android:id="@+id/state_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/state_off"
-            android:textColor="@color/white"
-            android:textSize="72sp"
-            android:textStyle="bold"
-            android:letterSpacing="0.08" />
-
-        <TextView
-            android:id="@+id/state_sub"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:text="@string/hint_tap_to_on"
-            android:textColor="#CCFFFFFF"
-            android:textSize="28sp" />
-    </LinearLayout>
-
-    <!-- Linha inferior: mesma largura do botão. Status à esquerda, ícones à direita. -->
-    <LinearLayout
-        android:layout_width="750dp"
+    <Button
+        android:id="@+id/settings_button"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
-        android:orientation="horizontal"
-        android:gravity="center_vertical">
+        android:text="@string/open_settings" />
 
-        <!-- Route chip (cresce/encolhe à vontade) -->
-        <TextView
-            android:id="@+id/route_chip"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/bg_chip"
-            android:paddingStart="36dp"
-            android:paddingEnd="36dp"
-            android:paddingTop="20dp"
-            android:paddingBottom="20dp"
-            android:text="@string/route_none"
-            android:textColor="@color/text_primary"
-            android:textSize="30sp" />
-
-        <!-- Empurra os ícones para a direita -->
-        <Space
-            android:layout_width="0dp"
-            android:layout_height="1dp"
-            android:layout_weight="1" />
-
-        <!-- Botões de ação (somente ícones), colados na direita -->
-        <ImageView
-            android:id="@+id/logs_button"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
-            android:background="@drawable/bg_logs_button"
-            android:padding="16dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/ic_logs"
-            android:contentDescription="@string/logs"
-            android:clickable="true"
-            android:focusable="true" />
-
-        <ImageView
-            android:id="@+id/settings_button"
-            android:layout_width="64dp"
-            android:layout_height="64dp"
-            android:layout_marginStart="16dp"
-            android:background="@drawable/bg_logs_button"
-            android:padding="16dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/ic_settings"
-            android:contentDescription="@string/settings"
-            android:clickable="true"
-            android:focusable="true" />
-    </LinearLayout>
 </LinearLayout>
