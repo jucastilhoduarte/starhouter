@@ -67,6 +67,7 @@ public final class RouterManager {
     }
 
     private void startPingLoop(Context ctx) {
+        if (pingRunning) return;
         state = State.STARTING;
         pingRunning = true;
         bg.post(() -> doPing(ctx));
